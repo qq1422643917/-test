@@ -1,0 +1,28 @@
+<!--pages/api/api.wxml-->
+ 
+ <button bindtap="location">地位-地图标注</button>
+ <video 
+  id="myVideo" 
+  src="{{v}}" 
+  danmu-list="{{danmuList}}"
+  enable-danmu 
+  danmu-btn 
+  controls>
+  </video>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">获取视频</button>
+    <input bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+
+<button type="primary" bindtap="show1">showToast界面</button>
+<button bindtap="show2">showLoading界面</button>
+<button type="primary" bindtap="show3">showModal界面</button>
+<button bindtap="request">requset数据请求</button>
+<button bindtap="storage">setStorage数据缓存</button>
+
+<image src="http://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/3b292df5e0fe99257d8c844b34a85edf8db1712d.jpg"
+bindtap="viewImage"
+>
+</image>
+<text>pages/api/api.wxml</text>

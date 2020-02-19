@@ -1,0 +1,19 @@
+
+<page-meta>
+
+  <header title="header标题" num="{{12}}"></header>
+  <open-data type="userNickName" open-gid="xxxxxx"></open-data>
+  <open-data type="userAvatarUrl" open-gid="xxxxxx"></open-data>
+  <open-data type="userGender" open-gid="xxxxxx"></open-data>
+
+  <navigation-bar
+    title="{{nbTitle}}"
+    loading="{{nbLoading}}"
+    front-color="{{nbFrontColor}}"
+    background-color="{{nbBackgroundColor}}"
+    color-animation-duration="2000"
+    color-animation-timing-func="easeIn"
+  />
+</page-meta>
+
+<text>pages/about/about.wxml</text>
